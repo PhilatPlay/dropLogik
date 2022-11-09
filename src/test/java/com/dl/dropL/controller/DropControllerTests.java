@@ -56,7 +56,7 @@ public class DropControllerTests {
                 .longdrop(-81.99712547287612)
                 .latpickup(29.197769321617393)
                 .longpickup(-8.99712547287612)
-                .payOffer(62)
+                .payOffer(62.0F)
                 .dropByDate(new Date(date.getTime() + 24 * 60 * 60 * 1000))
                 .datePosted(new Date(date.getTime()))
                 .lastModified(new Date(date.getTime())).build();
@@ -109,7 +109,7 @@ public class DropControllerTests {
                 .longdrop(-81.99712547287612)
                 .latpickup(29.197769321617393)
                 .longpickup(-8.99712547287612)
-                .payOffer(62)
+                .payOffer(62.0F)
                 .dropByDate(new Date(date.getTime() + 24 * 60 * 60 * 1000))
                 .datePosted(new Date(date.getTime()))
                 .lastModified(new Date(date.getTime())).build());
@@ -151,7 +151,7 @@ public class DropControllerTests {
                 .longdrop(-81.99712547287612)
                 .latpickup(29.197769321617393)
                 .longpickup(-8.99712547287612)
-                .payOffer(62)
+                .payOffer(62.0F)
                 .dropByDate(new Date(date.getTime() + 24 * 60 * 60 * 1000))
                 .datePosted(new Date(date.getTime()))
                 .lastModified(new Date(date.getTime())).build();
