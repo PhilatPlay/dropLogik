@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:8081")
 @RestController
 @RequestMapping("/api/drops")
 public class DropController {
